@@ -1,0 +1,268 @@
+<HTML>
+	<HEAD>
+		<TITLE> readme.html </TITLE>
+	</HEAD>
+	<BODY>
+		<TABLE>
+			<TR>
+				<TD COLSPAN=2><H2>BACKGROUND</H2></TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=2>The data contained in the compressed file has been extracted from the Reporting Carrier On-Time Performance (1987-present) data table of the"On-Time" database from the TranStats data library. Below are fields in the order that they appear on the records:</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Time Period</H4></TD>
+			</TR>
+			<TR>
+				<TD>FlightDate</TD>
+				<TD>Flight Date (yyyymmdd)</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Airline</H4></TD>
+			</TR>
+			<TR>
+				<TD>Reporting_Airline</TD>
+				<TD>Unique Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2). Use this field for analysis across a range of years.</TD>
+			</TR>
+			<TR>
+				<TD>Tail_Number</TD>
+				<TD>Tail Number</TD>
+			</TR>
+			<TR>
+				<TD>Flight_Number_Reporting_Airline</TD>
+				<TD>Flight Number</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Origin</H4></TD>
+			</TR>
+			<TR>
+				<TD>Origin</TD>
+				<TD>Origin Airport</TD>
+			</TR>
+			<TR>
+				<TD>OriginCityName</TD>
+				<TD>Origin Airport, City Name</TD>
+			</TR>
+			<TR>
+				<TD>OriginWac</TD>
+				<TD>Origin Airport, World Area Code</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Destination</H4></TD>
+			</TR>
+			<TR>
+				<TD>Dest</TD>
+				<TD>Destination Airport</TD>
+			</TR>
+			<TR>
+				<TD>DestCityName</TD>
+				<TD>Destination Airport, City Name</TD>
+			</TR>
+			<TR>
+				<TD>DestWac</TD>
+				<TD>Destination Airport, World Area Code</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Departure Performance</H4></TD>
+			</TR>
+			<TR>
+				<TD>CRSDepTime</TD>
+				<TD>CRS Departure Time (local time: hhmm)</TD>
+			</TR>
+			<TR>
+				<TD>DepDelay</TD>
+				<TD>Difference in minutes between scheduled and actual departure time. Early departures show negative numbers.</TD>
+			</TR>
+			<TR>
+				<TD>TaxiOut</TD>
+				<TD>Taxi Out Time, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>WheelsOff</TD>
+				<TD>Wheels Off Time (local time: hhmm)</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Arrival Performance</H4></TD>
+			</TR>
+			<TR>
+				<TD>WheelsOn</TD>
+				<TD>Wheels On Time (local time: hhmm)</TD>
+			</TR>
+			<TR>
+				<TD>TaxiIn</TD>
+				<TD>Taxi In Time, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>CRSArrTime</TD>
+				<TD>CRS Arrival Time (local time: hhmm)</TD>
+			</TR>
+			<TR>
+				<TD>ArrDelay</TD>
+				<TD>Difference in minutes between scheduled and actual arrival time. Early arrivals show negative numbers.</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Flight Summaries</H4></TD>
+			</TR>
+			<TR>
+				<TD>CRSElapsedTime</TD>
+				<TD>CRS Elapsed Time of Flight, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>ActualElapsedTime</TD>
+				<TD>Elapsed Time of Flight, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>AirTime</TD>
+				<TD>Flight Time, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>Flights</TD>
+				<TD>Number of Flights</TD>
+			</TR>
+			<TR>
+				<TD>Distance</TD>
+				<TD>Distance between airports (miles)</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Cause of Delay</H4></TD>
+			</TR>
+			<TR>
+				<TD>CarrierDelay</TD>
+				<TD>Carrier Delay, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>WeatherDelay</TD>
+				<TD>Weather Delay, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>NASDelay</TD>
+				<TD>National Air System Delay, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>SecurityDelay</TD>
+				<TD>Security Delay, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD>LateAircraftDelay</TD>
+				<TD>Late Aircraft Delay, in Minutes</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Gate Return Information at Origin Airport</H4></TD>
+			</TR>
+			<TR>
+				<TD>FirstDepTime</TD>
+				<TD>First Gate Departure Time at Origin Airport</TD>
+			</TR>
+			<TR>
+				<TD>TotalAddGTime</TD>
+				<TD>Total Ground Time Away from Gate for Gate Return or Cancelled Flight</TD>
+			</TR>
+			<TR>
+				<TD>LongestAddGTime</TD>
+				<TD>Longest Time Away from Gate for Gate Return or Cancelled Flight</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Cancellations and Diversions</H4></TD>
+			</TR>
+			<TR>
+				<TD>Cancelled</TD>
+				<TD>Cancelled Flight Indicator (1=Yes)</TD>
+			</TR>
+			<TR>
+				<TD>CancellationCode</TD>
+				<TD>Specifies The Reason For Cancellation</TD>
+			</TR>
+			<TR>
+				<TD>Diverted</TD>
+				<TD>Diverted Flight Indicator (1=Yes)</TD>
+			</TR>
+			<TR>
+				<TD COLSPAN=4><H4>Diverted Airport Information</H4></TD>
+			</TR>
+			<TR>
+				<TD>DivAirportLandings</TD>
+				<TD>Number of Diverted Airport Landings</TD>
+			</TR>
+			<TR>
+				<TD>DivReachedDest</TD>
+				<TD>Diverted Flight Reaching Scheduled Destination Indicator (1=Yes)</TD>
+			</TR>
+			<TR>
+				<TD>DivActualElapsedTime</TD>
+				<TD>Elapsed Time of Diverted Flight Reaching Scheduled Destination, in Minutes. The ActualElapsedTime column remains NULL for all diverted flights.</TD>
+			</TR>
+			<TR>
+				<TD>DivArrDelay</TD>
+				<TD>Difference in minutes between scheduled and actual arrival time for a diverted flight reaching scheduled destination.  The ArrDelay column remains NULL for all diverted flights.</TD>
+			</TR>
+			<TR>
+				<TD>DivDistance</TD>
+				<TD>Distance between scheduled destination and final diverted airport (miles).  Value will be 0 for diverted flight reaching scheduled destination.</TD>
+			</TR>		
+			<TR>
+				<TD>Div1Airport</TD>
+				<TD>Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div1AirportID</TD>
+				<TD>Airport ID of Diverted Airport 1. Airport ID is a Unique Key for an Airport</TD>
+			</TR>
+			<TR>
+				<TD>Div1AirportSeqID</TD>
+				<TD>Airport Sequence ID of Diverted Airport 1. Unique Key for Time Specific Information for an Airport</TD>
+			</TR>
+			<TR>
+				<TD>Div1WheelsOn</TD>
+				<TD>Wheels On Time (local time: hhmm) at Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div1TotalGTime</TD>
+				<TD>Total Ground Time Away from Gate at Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div1LongestGTime</TD>
+				<TD>Longest Ground Time Away from Gate at Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div1WheelsOff</TD>
+				<TD>Wheels Off Time (local time: hhmm) at Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div1TailNum</TD>
+				<TD>Aircraft Tail Number for Diverted Airport Code1</TD>
+			</TR>
+			<TR>
+				<TD>Div2Airport</TD>
+				<TD>Diverted Airport Code2</TD>
+			</TR>
+			<TR>
+				<TD>Div2AirportID</TD>
+				<TD>Airport ID of Diverted Airport 2. Airport ID is a Unique Key for an Airport</TD>
+			</TR>
+			<TR>
+				<TD>Div2AirportSeqID</TD>
+				<TD>Airport Sequence ID of Diverted Airport 2. Unique Key for Time Specific Information for an Airport</TD>
+			</TR>
+			<TR>
+				<TD>Div2WheelsOn</TD>
+				<TD>Wheels On Time (local time: hhmm) at Diverted Airport Code2</TD>
+			</TR>
+			<TR>
+				<TD>Div2TotalGTime</TD>
+				<TD>Total Ground Time Away from Gate at Diverted Airport Code2</TD>
+			</TR>
+			<TR>
+				<TD>Div2LongestGTime</TD>
+				<TD>Longest Ground Time Away from Gate at Diverted Airport Code2</TD>
+			</TR>
+			<TR>
+				<TD>Div2WheelsOff</TD>
+				<TD>Wheels Off Time (local time: hhmm) at Diverted Airport Code2</TD>
+			</TR>
+			<TR>
+				<TD>Div2TailNum</TD>
+				<TD>Aircraft Tail Number for Diverted Airport Code2</TD>
+			</TR>
+		</TABLE>
+	</BODY>
+</HTML>

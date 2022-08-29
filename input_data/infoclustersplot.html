@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<title> infoclustersplot.html </title>
+	</head>
+	<body>
+	  <strong>What is K-Means clustering?</strong>
+	  <p>
+	    K-means clustering is the most commonly used unsupervised machine learning algorithm for partitioning a given data set into a set of k groups/clusters, where k represents the number of groups pre-specified by the analyst. It classifies objects in multiple groups (i.e., clusters), such that objects within the same cluster are as similar as possible (i.e., high intra-class similarity), whereas objects from different clusters are as dissimilar as possible (i.e., low inter-class similarity). In k-means clustering, each cluster is represented by its center (i.e, centroid) which corresponds to the mean of points assigned to the cluster.
+	  </p>
+	  <p>
+	    The first step when using k-means clustering is to indicate the number of clusters (k) that will be generated in the final solution. The algorithm starts by randomly selecting k objects from the data set to serve as the initial centers for the clusters. The selected objects are also known as cluster means or centroids. Next, each of the remaining objects is assigned to it’s closest centroid, where closest is defined using the Euclidean distance between the object and the cluster mean. This step is called “cluster assignment step”. After the assignment step, the algorithm computes the new mean value of each cluster. The term cluster “centroid update” is used to design this step. Now that the centers have been recalculated, every observation is checked again to see if it might be closer to a different cluster. All the objects are reassigned again using the updated cluster means. The cluster assignment and centroid update steps are iteratively repeated until the cluster assignments stop changing (i.e until <em>convergence</em> is achieved). That is, the clusters formed in the current iteration are the same as those obtained in the previous iteration.
+	  </p>
+	</body>
+</html>
